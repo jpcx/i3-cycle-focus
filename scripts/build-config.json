@@ -2,8 +2,8 @@
   "jsdocLoc": "scripts/~jsdoc",
   "templatesLoc": "scripts/templates",
   "packages": {
-    "i3-alt-tab-visible": {
-      "repo": "https://github.com/jpcx/i3-alt-tab-visible",
+    "i3-cycle-focus": {
+      "repo": "https://github.com/jpcx/i3-cycle-focus",
       "tag": "0.1.0",
       "node": "8.3.0",
       "jsdoc": [
@@ -16,7 +16,7 @@
           }
         }
       ],
-      "description": "Simulates an alt-tab operation for visible windows using the i3 window manager. Shifts the mouse cursor position to the center of newly focused window using xdotool.",
+      "description": "Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of newly focused window using xdotool. Defaults to visible windows only.",
       "keywords": [
         "i3",
         "window",

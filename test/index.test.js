@@ -1,7 +1,7 @@
 /**
  * @author Justin Collier <jpcxme@gmail.com>
  * @license MIT
- * @see {@link http://github.com/jpcx/i3-alt-tab-visible|GitHub}
+ * @see {@link http://github.com/jpcx/i3-cycle-focus|GitHub}
  */
 
 'use strict'
@@ -86,7 +86,7 @@ test('Shifts focus (please have at least two windows visible)', async () => {
     })
     const i3Data = await loadI3Data()
     forwardHist.push(getFocusedWindow(i3Data.tree))
-    spawn('i3-alt-tab-visible')
+    spawn('i3-cycle-focus')
     await new Promise(resolve => setTimeout(resolve, 2000))
     expect(activity).toBe(true)
   } catch (err) {
@@ -112,7 +112,7 @@ test(
       })
       const i3Data = await loadI3Data()
       reverseHist.push(getFocusedWindow(i3Data.tree))
-      spawn('i3-alt-tab-visible', ['--reverse'])
+      spawn('i3-cycle-focus', ['--reverse'])
       await new Promise(resolve => setTimeout(resolve, 2000))
       expect(activity).toBe(true)
     } catch (err) {

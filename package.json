@@ -1,13 +1,13 @@
 {
-  "name": "i3-alt-tab-visible",
+  "name": "i3-cycle-focus",
   "version": "0.1.0",
-  "description": "Simulates an alt-tab operation for visible windows using the i3 window manager. Shifts the mouse cursor position to the center of newly focused window using xdotool.",
+  "description": "Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of newly focused window using xdotool. Defaults to visible windows only.",
   "engines": {
     "node": ">=8.3.0"
   },
   "main": "index.js",
   "bin": {
-    "i3-alt-tab-visible": "./index.js"
+    "i3-cycle-focus": "./index.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -25,9 +25,9 @@
     "xdotool"
   ],
   "author": "Justin Collier",
-  "repository": "github:jpcx/i3-alt-tab-visible",
+  "repository": "github:jpcx/i3-cycle-focus",
   "bugs": {
-    "url": "https://github.com/jpcx/i3-alt-tab-visible/issues",
+    "url": "https://github.com/jpcx/i3-cycle-focus/issues",
     "email": "jpcxme@gmail.com"
   },
   "license": "MIT",

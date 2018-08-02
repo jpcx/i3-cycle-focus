@@ -3,7 +3,7 @@
 /**
  * @author Justin Collier <jpcxme@gmail.com>
  * @license MIT
- * @see {@link http://github.com/jpcx/i3-alt-tab-visible|GitHub}
+ * @see {@link http://github.com/jpcx/i3-cycle-focus|GitHub}
  */
 
 'use strict'
