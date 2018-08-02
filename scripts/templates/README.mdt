@@ -58,6 +58,8 @@ npm i -d --prefix=$(npm root -g)/i3-alt-tab-visible
 npm test --prefix=$(npm root -g)/i3-alt-tab-visible
 ```
 
+_Note: If you are developing the script and are trying to test your changes, be sure to create a symlink to the the updated index.js in your binary folders. The test script executes the command using child_process, so unless the desired binary is accessible globally it will test whatever version is currently accessible._
+
 ## Versioning
 
 Versioned using [SemVer](http://semver.org/). For available versions, see the [Changelog](https://github.com/jpcx/i3-alt-tab-visible/blob/___{alias:i3-alt-tab-visible/tag}___/CHANGELOG.md).
