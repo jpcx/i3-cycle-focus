@@ -40,6 +40,7 @@ chromium $(npm root -g)/i3-alt-tab-visible/docs/jsdoc/index.html
 ```
 
 _Note: this assumes that you have installed the package globally._
+
 _Note: replace chromium with your browser of choice._
 
 ## Testing
