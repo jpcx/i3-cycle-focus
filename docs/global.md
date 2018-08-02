@@ -1,5 +1,4 @@
-Global
-======
+# i3-alt-tab-visible
 
 ## Methods
 
@@ -343,10 +342,9 @@ Source:
 
 * [i3-alt-tab-visible/index.js](https://github.com/jpcx/i3-alt-tab-visible/blob/0.1.0/index.js), [line 70](https://github.com/jpcx/i3-alt-tab-visible/blob/0.1.0/index.js#L70)
 
-[Home](https://github.com/jpcx/i3-alt-tab-visible/tree/0.1.0/)
-------------------
+---
 
-## Global
+## [Home](https://github.com/jpcx/i3-alt-tab-visible/tree/0.1.0/)
 
 * [focusWindow](https://github.com/jpcx/i3-alt-tab-visible/blob/0.1.0/docs/global.md#focusWindow)
 * [getContentWindowLocators](https://github.com/jpcx/i3-alt-tab-visible/blob/0.1.0/docs/global.md#getContentWindowLocators)

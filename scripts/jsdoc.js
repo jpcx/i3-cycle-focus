@@ -111,14 +111,16 @@ const removeTopNamespace = string =>
   string.replace(/^Namespace: [\s\S]*?\n=*\n\n([\s\S]*?)\n-*\n$/gm, '# $1\n')
 
 /**
- * Formats header with # style.
+ * Formats global header to module name with # style.
  *
  * @private
  * @param   {string} string - Search string.
  * @returns {string} Formatted string.
  */
-const formatTopModuleHeader = string =>
-  string.replace(/^(Module:[\S\s]*?)\n=*\n/gm, '# $1\n')
+const formatGlobalHeader = (string, mappings) => {
+  const repo = Object.values(mappings)[0].repo.split(/\//g).slice(-1)[0]
+  return string.replace(/^Global([\S\s]*?)\n=*\n/m, `# ${repo}$1\n`)
+}
 
 /**
  * Formats low-level headers to bold text.
@@ -267,7 +269,7 @@ const formatSourceCodeURLs = string =>
 const formatHomeFooter = (string, mappings) => {
   const info = Object.values(mappings)[0]
   const url = info.repo + '/tree/' + info.tag + '/'
-  return string.replace(/^\[home\]\(index\.html\)$/gim, `[Home](${url})`)
+  return string.replace(/^\[home\]\(index\.html\)\n-*\n\n#+ global/gim, `---\n\n## [Home](${url})\n`)
 }
 
 /**
@@ -399,7 +401,7 @@ const postProcess = (markdown, mappings) =>
     proc[key] = fixAsterixBullets(proc[key])
     proc[key] = fixAsterixTypes(proc[key])
     proc[key] = removeTopNamespace(proc[key])
-    proc[key] = formatTopModuleHeader(proc[key])
+    proc[key] = formatGlobalHeader(proc[key], mappings)
     proc[key] = formatLowLevelHeaders(proc[key])
     proc[key] = formatThrowsAndReturnsTypes(proc[key])
     proc[key] = formatSourceCodeURLs(proc[key])
