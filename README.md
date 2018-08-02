@@ -32,7 +32,7 @@ bindsym Mod1+Shift+Tab exec --no-startup-id i3-alt-tab-visible --reverse
 
 Documentation generated from jsdoc is located [here](https://github.com/jpcx/i3-alt-tab-visible/blob/0.1.0/docs/global.md).
 
-If you want to build and open the HTML jsdoc yourself, run these commands:
+If you want to build and open the jsdoc HTML yourself, run these commands:
 
 ```console
 npm run-script build-jsdoc --prefix=$(npm root -g)/i3-alt-tab-visible
