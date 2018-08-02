@@ -49,7 +49,7 @@ Testing provided by the jest library.
 
 Package must be installed globally in order to test!
 
-Additionally, at least two windows must be visible during the test. Also, please don't move the mouse or do anything to modify focus.
+Additionally, at least two windows must be visible during the test. Also, please don't move the mouse or do anything to change focus.
 
 Please run the following commands to install testing dependencies and to run the test:
 
