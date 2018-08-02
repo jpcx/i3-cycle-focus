@@ -1,13 +1,13 @@
 {
-  "name": "i3-alt-tab-visible",
-  "version": "___{alias:i3-alt-tab-visible/tag}___",
-  "description": "___{alias:i3-alt-tab-visible/description}___",
+  "name": "i3-cycle-focus",
+  "version": "___{alias:i3-cycle-focus/tag}___",
+  "description": "___{alias:i3-cycle-focus/description}___",
   "engines": {
-    "node": ">=___{alias:i3-alt-tab-visible/node}___"
+    "node": ">=___{alias:i3-cycle-focus/node}___"
   },
   "main": "index.js",
   "bin": {
-    "i3-alt-tab-visible": "./index.js"
+    "i3-cycle-focus": "./index.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -16,16 +16,16 @@
     "build": "sh scripts/build.sh",
     "build-jsdoc": "jsdoc . -c .jsdoc.conf.json --readme README.md -d docs/jsdoc"
   },
-  "keywords": ___{alias:i3-alt-tab-visible/keywords___JSON}___,
+  "keywords": ___{alias:i3-cycle-focus/keywords___JSON}___,
   "author": "Justin Collier",
-  "repository": "github:jpcx/i3-alt-tab-visible",
+  "repository": "github:jpcx/i3-cycle-focus",
   "bugs": {
-    "url": "https://github.com/jpcx/i3-alt-tab-visible/issues",
+    "url": "https://github.com/jpcx/i3-cycle-focus/issues",
     "email": "jpcxme@gmail.com"
   },
   "license": "MIT",
-  "dependencies": ___{alias:i3-alt-tab-visible/dependencies___JSON}___,
-  "devDependencies": ___{alias:i3-alt-tab-visible/devDependencies___JSON}___,
+  "dependencies": ___{alias:i3-cycle-focus/dependencies___JSON}___,
+  "devDependencies": ___{alias:i3-cycle-focus/devDependencies___JSON}___,
   "standard": {
     "ignore": [
       "test/**/*.test.js"
