@@ -1,0 +1,42 @@
+{
+  "jsdocLoc": "scripts/~jsdoc",
+  "templatesLoc": "scripts/templates",
+  "packages": {
+    "i3-cycle-focus": {
+      "repo": "https://github.com/jpcx/i3-cycle-focus",
+      "tag": "0.1.0",
+      "node": "8.3.0",
+      "jsdoc": [
+        {
+          "origin": "global.html",
+          "destination": {
+            "local": "",
+            "path": "docs",
+            "file": "global.md"
+          }
+        }
+      ],
+      "description": "Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of focus. Cycles visible windows only.",
+      "keywords": [
+        "i3",
+        "window",
+        "manager",
+        "alt-tab",
+        "mouse",
+        "xdotool"
+      ],
+      "dependencies": {
+        "deep-props": "^0.3.3",
+        "i3": "^0.2.1"
+      },
+      "devDependencies": {
+        "jest": "^23.4.2",
+        "jsdoc": "^3.5.5",
+        "standard": "^11.0.1",
+        "turndown": "^4.0.2",
+        "turndown-plugin-gfm": "^1.0.2"
+      }
+    }
+  },
+  "customAliases": {}
+}

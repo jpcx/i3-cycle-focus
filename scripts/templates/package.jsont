@@ -1,0 +1,34 @@
+{
+  "name": "i3-cycle-focus",
+  "version": "___{alias:i3-cycle-focus/tag}___",
+  "description": "___{alias:i3-cycle-focus/description}___",
+  "engines": {
+    "node": ">=___{alias:i3-cycle-focus/node}___"
+  },
+  "main": "index.js",
+  "bin": {
+    "i3-cycle-focus": "./index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest --env=node --verbose",
+    "prepare": "npm run-script build && npm test",
+    "build": "sh scripts/build.sh",
+    "build-jsdoc": "jsdoc . -c .jsdoc.conf.json --readme README.md -d docs/jsdoc"
+  },
+  "keywords": ___{alias:i3-cycle-focus/keywords___JSON}___,
+  "author": "Justin Collier",
+  "repository": "github:jpcx/i3-cycle-focus",
+  "bugs": {
+    "url": "https://github.com/jpcx/i3-cycle-focus/issues",
+    "email": "jpcxme@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": ___{alias:i3-cycle-focus/dependencies___JSON}___,
+  "devDependencies": ___{alias:i3-cycle-focus/devDependencies___JSON}___,
+  "standard": {
+    "ignore": [
+      "test/**/*.test.js"
+    ]
+  }
+}
