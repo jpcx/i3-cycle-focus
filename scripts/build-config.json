@@ -16,7 +16,7 @@
           }
         }
       ],
-      "description": "Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor to the center of focus. Cycles visible windows only.",
+      "description": "Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of focus. Cycles visible windows only.",
       "keywords": [
         "i3",
         "window",
