@@ -16,7 +16,7 @@
           }
         }
       ],
-      "description": "Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of newly focused window using xdotool. Defaults to visible windows only.",
+      "description": "Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of newly focused window using xdotool. Cycles visible windows only.",
       "keywords": [
         "i3",
         "window",
