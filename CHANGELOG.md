@@ -1,8 +1,23 @@
 # CHANGELOG
 
+<a name="0.1.2"></a>
+
+## [0.1.2](https://github.com/jpcx/i3-cycle-focus/tree/0.1.2) (2018-08-02)
+
+| __[Changes since 0.1.1](https://github.com/jpcx/i3-cycle-focus/compare/0.1.1...0.1.2)__ | [Release Notes](https://github.com/jpcx/i3-cycle-focus/releases/tag/0.1.2) | [README](https://github.com/jpcx/i3-cycle-focus/tree/0.1.2/README.md) |
+| --- | --- | --- |
+
+| [Source Code (zip)](https://github.com/jpcx/i3-cycle-focus/archive/0.1.2.zip) | [Source Code (tar.gz)](https://github.com/jpcx/node-kraken-api/archive/0.1.2.tar.gz) |
+| --- | --- |
+
+__Bugfixes:__
+
++ __NPM:__ Updated package-lock.json.
++ __CHANGELOG:__ Fixed incorrect link to 0.4.1
+
 <a name="0.1.1"></a>
 
-## [0.1.1](https://github.com/jpcx/i3-cycle-focus/tree/0.4.1) (2018-08-02)
+## [0.1.1](https://github.com/jpcx/i3-cycle-focus/tree/0.1.1) (2018-08-02)
 
 | __[Changes since 0.1.0](https://github.com/jpcx/i3-cycle-focus/compare/0.1.0...0.1.1)__ | [Release Notes](https://github.com/jpcx/i3-cycle-focus/releases/tag/0.1.1) | [README](https://github.com/jpcx/i3-cycle-focus/tree/0.1.1/README.md) |
 | --- | --- | --- |
