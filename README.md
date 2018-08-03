@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/i3-cycle-focus.png)](https://nodei.co/npm/i3-cycle-focus/)
 
-Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor to the center of focus. Cycles visible windows only.
+Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of focus. Cycles visible windows only.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ npm i -g i3-cycle-focus
 
 ### Deployment
 
-The command must be bound to the i3 config. This is usually `~/.config/i3/config`. The following lines will bind the script to alt+tab for forward cycling and alt+shift+tab for reverse cycling.
+The command should be bound within the i3 config. This is usually `~/.config/i3/config`. The following lines will bind the script to alt+tab for forward cycling and alt+shift+tab for reverse cycling.
 
 ```ini
 bindsym Mod1+Tab       exec --no-startup-id i3-cycle-focus
