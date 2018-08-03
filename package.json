@@ -1,6 +1,6 @@
 {
   "name": "i3-cycle-focus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of focus. Cycles visible windows only.",
   "engines": {
     "node": ">=8.3.0"
