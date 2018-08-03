@@ -16,11 +16,11 @@ __Parameters:__
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 252](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L252)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 252](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L252)
 
 <a name="getContentWindowLocators"></a>
 
-### getContentWindowLocators(tree) → \{Array.<[WindowLocator](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#WindowLocator)>}
+### getContentWindowLocators(tree) → \{Array.<[WindowLocator](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#WindowLocator)>}
 
 Gets an array of content window locators.
 
@@ -28,11 +28,11 @@ __Parameters:__
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
+| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 78](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L78)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 78](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L78)
 
 __Returns:__
 
@@ -40,7 +40,7 @@ Array of window locators
 
 ___Type:___
 
-* Array.<[WindowLocator](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#WindowLocator)>
+* Array.<[WindowLocator](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#WindowLocator)>
 
 <a name="getFocusedWindow"></a>
 
@@ -52,11 +52,11 @@ __Parameters:__
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
+| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 149](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L149)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 149](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L149)
 
 __Returns:__
 
@@ -76,11 +76,11 @@ __Parameters:__
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `i3Data` | [I3Data](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data) | I3 Data. |
+| `i3Data` | [I3Data](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data) | I3 Data. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 194](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L194)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 194](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L194)
 
 __Returns:__
 
@@ -100,13 +100,13 @@ __Parameters:__
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
-| `visibleWorkspaces` | Array | Array of names of visible workspaces. |
-| `locators` | Array.<[WindowLocator](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#WindowLocator)> | Array of window locators. |
+| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
+| `visibleWorkspaces` | Set | Set of names of visible workspaces. |
+| `locators` | Array.<[WindowLocator](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#WindowLocator)> | Array of window locators. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 130](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L130)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 130](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L130)
 
 __Returns:__
 
@@ -118,7 +118,7 @@ ___Type:___
 
 <a name="getVisibleWorkspaces"></a>
 
-### getVisibleWorkspaces(workspaces) → \{Array}
+### getVisibleWorkspaces(workspaces) → \{Set}
 
 Gets an array of visible workspace names.
 
@@ -126,23 +126,23 @@ __Parameters:__
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `workspaces` | [I3Data-workspaces](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-workspaces) | Array of workspace information. |
+| `workspaces` | [I3Data-workspaces](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-workspaces) | Array of workspace information. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 93](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L93)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 93](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L93)
 
 __Returns:__
 
-Array of names of visible workspaces.
+Set of names of visible workspaces.
 
 ___Type:___
 
-* Array
+* Set
 
 <a name="getWindowCenterCoords"></a>
 
-### getWindowCenterCoords(tree, windowID) → \{[Coords](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#Coords)}
+### getWindowCenterCoords(tree, windowID) → \{[Coords](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#Coords)}
 
 Gets the coordinates of the center of a given window.
 
@@ -150,12 +150,12 @@ __Parameters:__
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
+| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
 | `windowID` | number | ID of focused window. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 174](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L174)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 174](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L174)
 
 __Returns:__
 
@@ -163,7 +163,7 @@ Coordinates of center.
 
 ___Type:___
 
-* [Coords](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#Coords)
+* [Coords](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#Coords)
 
 <a name="isWithinVisibleWorkspace"></a>
 
@@ -175,13 +175,13 @@ __Parameters:__
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
-| `visibleWorkspaces` | Array | Array of names of visible workspaces. |
-| `locator` | [WindowLocator](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#WindowLocator) | Window locator. |
+| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
+| `visibleWorkspaces` | Set | Set of names of visible workspaces. |
+| `locator` | [WindowLocator](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#WindowLocator) | Window locator. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 111](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L111)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 111](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L111)
 
 __Returns:__
 
@@ -193,13 +193,13 @@ ___Type:___
 
 <a name="loadI3Data"></a>
 
-### loadI3Data() → \{[I3Data](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data)}
+### loadI3Data() → \{[I3Data](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data)}
 
 Loads i3 workspaces and tree using the i3 module.
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 53](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L53)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 53](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L53)
 
 __Returns:__
 
@@ -207,7 +207,7 @@ I3 data.
 
 ___Type:___
 
-* [I3Data](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data)
+* [I3Data](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data)
 
 <a name="moveMouse"></a>
 
@@ -219,11 +219,11 @@ __Parameters:__
 
 | Type | Description |
 | --- | --- |
-| [Coords](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#Coords) | Coordinate object. |
+| [Coords](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#Coords) | Coordinate object. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 230](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L230)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 230](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L230)
 
 __Returns:__
 
@@ -247,7 +247,7 @@ __Parameters:__
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 17](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L17)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 17](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L17)
 
 ## Type Definitions
 
@@ -270,7 +270,7 @@ __Properties:__
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 166](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L166)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 166](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L166)
 
 <a name="I3Data"></a>
 
@@ -286,12 +286,12 @@ __Properties:__
 
 | Name | Type | Description |
 | --- | --- | --- |
-| `workspaces` | [I3Data-workspaces](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-workspaces) | Array of workspace information. |
-| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
+| `workspaces` | [I3Data-workspaces](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-workspaces) | Array of workspace information. |
+| `tree` | [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-tree) | Object containing i3 tree structure. |
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 45](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L45)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 45](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L45)
 
 <a name="I3Data-tree"></a>
 
@@ -305,7 +305,7 @@ __Type:__
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 39](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L39)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 39](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L39)
 
 <a name="I3Data-workspaces"></a>
 
@@ -319,13 +319,13 @@ __Type:__
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 33](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L33)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 33](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L33)
 
 <a name="WindowLocator"></a>
 
 ### WindowLocator
 
-Creates an array of locations and window IDs used for retrieving information about content windows within the [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#I3Data-tree).
+Creates an array of locations and window IDs used for retrieving information about content windows within the [I3Data-tree](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#I3Data-tree).
 
 __Type:__
 
@@ -340,20 +340,20 @@ __Properties:__
 
 Source:
 
-* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js), [line 70](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/index.js#L70)
+* [i3-cycle-focus/index.js](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js), [line 70](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/index.js#L70)
 
 ---
 
-## [Home](https://github.com/jpcx/i3-cycle-focus/tree/0.1.2/)
+## [Home](https://github.com/jpcx/i3-cycle-focus/tree/0.1.3/)
 
-* [focusWindow](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#focusWindow)
-* [getContentWindowLocators](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#getContentWindowLocators)
-* [getFocusedWindow](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#getFocusedWindow)
-* [getNextWindowID](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#getNextWindowID)
-* [getVisibleWindows](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#getVisibleWindows)
-* [getVisibleWorkspaces](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#getVisibleWorkspaces)
-* [getWindowCenterCoords](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#getWindowCenterCoords)
-* [isWithinVisibleWorkspace](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#isWithinVisibleWorkspace)
-* [loadI3Data](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#loadI3Data)
-* [moveMouse](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#moveMouse)
-* [throwToI3](https://github.com/jpcx/i3-cycle-focus/blob/0.1.2/docs/global.md#throwToI3)
+* [focusWindow](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#focusWindow)
+* [getContentWindowLocators](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#getContentWindowLocators)
+* [getFocusedWindow](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#getFocusedWindow)
+* [getNextWindowID](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#getNextWindowID)
+* [getVisibleWindows](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#getVisibleWindows)
+* [getVisibleWorkspaces](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#getVisibleWorkspaces)
+* [getWindowCenterCoords](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#getWindowCenterCoords)
+* [isWithinVisibleWorkspace](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#isWithinVisibleWorkspace)
+* [loadI3Data](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#loadI3Data)
+* [moveMouse](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#moveMouse)
+* [throwToI3](https://github.com/jpcx/i3-cycle-focus/blob/0.1.3/docs/global.md#throwToI3)

@@ -95,7 +95,7 @@ const getContentWindowLocators = tree =>
  *
  * @function getVisibleWorkspaces
  * @param    {I3Data-workspaces} workspaces - Array of workspace information.
- * @return   {Array} Array of names of visible workspaces.
+ * @return   {Set} Set of names of visible workspaces.
  */
 const getVisibleWorkspaces = workspaces => {
   if (!Array.isArray(workspaces)) workspaces = [workspaces]
@@ -113,7 +113,7 @@ const getVisibleWorkspaces = workspaces => {
  *
  * @function isWithinVisibleWorkspace
  * @param    {I3Data-tree}      tree              - Object containing i3 tree structure.
- * @param    {Array}            visibleWorkspaces - Array of names of visible workspaces.
+ * @param    {Set}              visibleWorkspaces - Set of names of visible workspaces.
  * @param    {WindowLocator}    locator           - Window locator.
  * @return   {boolean}          True if within visible workspace.
  */
@@ -132,7 +132,7 @@ const isWithinVisibleWorkspace = (tree, visibleWorkspaces, locator) => {
  *
  * @function getVisibleWindows
  * @param    {I3Data-tree}      tree              - Object containing i3 tree structure.
- * @param    {Array}            visibleWorkspaces - Array of names of visible workspaces.
+ * @param    {Set}              visibleWorkspaces - Set of names of visible workspaces.
  * @param    {WindowLocator[]}  locators          - Array of window locators.
  * @return   {Array}            IDs of visible windows.
  */
