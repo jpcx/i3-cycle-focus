@@ -37,22 +37,11 @@ bindsym Mod1+Shift+Tab exec --no-startup-id i3-cycle-focus --reverse
 
 ## Documentation
 
-Internal documentation [here](https://github.com/jpcx/i3-cycle-focus/blob/0.1.0/docs/global.md).
-
-## Testing
-
-Testing provided by jest:
-
-```console
-npm i -d --prefix=$(npm root -g)/i3-cycle-focus
-npm test --prefix=$(npm root -g)/i3-cycle-focus
-```
-
-_Note: if testing, have at least two windows visible and don't move the mouse._
+Internal documentation [here](https://github.com/jpcx/i3-cycle-focus/blob/0.1.1/docs/global.md).
 
 ## Versioning
 
-Versioned using [SemVer](http://semver.org/). For available versions, see the [Changelog](https://github.com/jpcx/i3-cycle-focus/blob/0.1.0/CHANGELOG.md).
+Versioned using [SemVer](http://semver.org/). For available versions, see the [Changelog](https://github.com/jpcx/i3-cycle-focus/blob/0.1.1/CHANGELOG.md).
 
 ## Contribution
 
@@ -64,4 +53,4 @@ Please raise an issue if you find any. Pull requests are welcome!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/jpcx/i3-cycle-focus/blob/0.1.0/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/jpcx/i3-cycle-focus/blob/0.1.1/LICENSE) file for details
