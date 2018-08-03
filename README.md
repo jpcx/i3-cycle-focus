@@ -2,6 +2,14 @@
 
 [![NPM](https://nodei.co/npm/i3-cycle-focus.png)](https://nodei.co/npm/i3-cycle-focus/)
 
+[![NPM](https://img.shields.io/github/license/jpcx/i3-cycle-focus.svg)](https://www.npmjs.com/package/i3-cycle-focus/)
+[![NPM](https://img.shields.io/node/v/i3-cycle-focus.svg)](https://www.npmjs.com/package/i3-cycle-focus/)
+[![NPM](https://img.shields.io/npm/dm/i3-cycle-focus.svg)](https://www.npmjs.com/package/i3-cycle-focus/)
+[![NPM](https://img.shields.io/github/last-commit/jpcx/i3-cycle-focus.svg)](https://www.npmjs.com/package/i3-cycle-focus/)
+
+[![NPM](https://img.shields.io/david/jpcx/i3-cycle-focus.svg?style=flat-square)](https://www.npmjs.com/package/i3-cycle-focus/)
+[![NPM](https://img.shields.io/david/dev/jpcx/i3-cycle-focus.svg?style=flat-square)](https://www.npmjs.com/package/i3-cycle-focus/)
+
 Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of focus. Cycles visible windows only.
 
 ## Getting Started
