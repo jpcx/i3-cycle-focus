@@ -4,7 +4,7 @@
   "packages": {
     "i3-cycle-focus": {
       "repo": "https://github.com/jpcx/i3-cycle-focus",
-      "tag": "0.1.0",
+      "tag": "0.1.1",
       "node": "8.3.0",
       "jsdoc": [
         {
