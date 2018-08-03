@@ -2,7 +2,7 @@
 
 [![NPM](https://nodei.co/npm/i3-cycle-focus.png)](https://nodei.co/npm/i3-cycle-focus/)
 
-Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of newly focused window using xdotool. Defaults to visible windows only.
+Simulates an alt-tab operation for the i3 window manager. Shifts the mouse cursor position to the center of newly focused window using xdotool. Cycles visible windows only.
 
 ## Getting Started
 
