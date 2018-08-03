@@ -41,6 +41,8 @@ npm i -d --prefix=$(npm root -g)/i3-cycle-focus
 npm test --prefix=$(npm root -g)/i3-cycle-focus
 ```
 
+_Note: if testing, have at least two windows visible and don't move the mouse._
+
 ## Versioning
 
 Versioned using [SemVer](http://semver.org/). For available versions, see the [Changelog](https://github.com/jpcx/i3-cycle-focus/blob/0.1.0/CHANGELOG.md).

@@ -72,7 +72,7 @@ const getFocusedWindow = tree =>
 const forwardHist = []
 const reverseHist = []
 
-test('Shifts focus (please have at least two windows visible)', async () => {
+test(`Shifts focus`, async () => {
   try {
     let activity = false
     i3.on('window', data => {
@@ -95,7 +95,7 @@ test('Shifts focus (please have at least two windows visible)', async () => {
 })
 
 test(
-  'Shifts focus reversely (please have at least two windows visible)',
+  `Shifts focus reversely`,
   async () => {
     try {
       let activity = false
