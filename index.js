@@ -25,7 +25,7 @@ const throwToI3 = err => {
     '-t',
     'error',
     '-m',
-    `altTab.js has thrown an error! ${err.message || err}`
+    `i3-cycle-focus has thrown an error! ${err.message || err}`
   ])
   process.exit()
 }
